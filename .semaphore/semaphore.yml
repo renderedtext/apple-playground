@@ -1,0 +1,14 @@
+version: v1.0
+name: First Apple Pipeline
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: osx-mojave
+
+blocks:
+  - name: "Hello"
+    task:
+      jobs:
+      - name: Hello
+        commands:
+          - echo "Hello"
