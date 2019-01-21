@@ -15,4 +15,6 @@ blocks:
           - ls -lah ~/.ssh
           - chmod 0600 ~/.ssh/id_rsa
           - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+          - rm -rf apple-playground
           - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
+          - say "Good Morning"
