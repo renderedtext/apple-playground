@@ -11,4 +11,10 @@ blocks:
       jobs:
       - name: Hello
         commands:
-          - echo "Hello"
+          - rm -rf toolbox
+          - git clone https://github.com/semaphoreci/toolbox.git ~/.toolbox
+          - bash ~/.toolbox/install-toolbox
+          - source ~/.toolbox/toolbox
+          - echo 'source ~/.toolbox/toolbox' >> ~/.bash_profile
+          - uname -a
+          - checkout
