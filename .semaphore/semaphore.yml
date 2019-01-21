@@ -11,10 +11,5 @@ blocks:
       jobs:
       - name: Hello
         commands:
-          - rm -rf toolbox
-          - git clone https://github.com/semaphoreci/toolbox.git ~/.toolbox
-          - bash ~/.toolbox/install-toolbox
-          - source ~/.toolbox/toolbox
-          - echo 'source ~/.toolbox/toolbox' >> ~/.bash_profile
           - uname -a
-          - checkout
+          - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
