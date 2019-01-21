@@ -13,5 +13,6 @@ blocks:
         commands:
           - uname -a
           - ls -lah ~/.ssh
+          - chmod 0600 ~/.ssh/id_rsa
           - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
           - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
