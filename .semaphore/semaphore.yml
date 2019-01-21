@@ -12,6 +12,6 @@ blocks:
       - name: Hello
         commands:
           - uname -a
-          - ls ~/.ssh
+          - ls -lah ~/.ssh
           - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
           - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
