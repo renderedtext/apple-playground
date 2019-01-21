@@ -17,4 +17,4 @@ blocks:
           - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
           - rm -rf apple-playground
           - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
-          - say "Good Morning"
+          - ls -lah
