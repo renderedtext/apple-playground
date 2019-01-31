@@ -8,8 +8,7 @@ agent:
 blocks:
   - name: "Hello"
     task:
-      jobs:
-      - name: Hello
+      prologue:
         commands:
           - uname -a
           - ls -lah ~/.ssh
@@ -18,3 +17,44 @@ blocks:
           - rm -rf apple-playground
           - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
           - ls -lah
+
+      jobs:
+      - name: Hello 1
+        commaands:
+          - echo 1
+
+      - name: Hello 2
+        commaands:
+          - echo 2
+
+      - name: Hello 3
+        commaands:
+          - echo 3
+
+      - name: Hello 4
+        commaands:
+          - echo 4
+
+      - name: Hello 5
+        commaands:
+          - echo 5
+
+      - name: Hello 6
+        commaands:
+          - echo 6
+
+      - name: Hello 7
+        commaands:
+          - echo 7
+
+      - name: Hello 8
+        commaands:
+          - echo 8
+
+      - name: Hello 9
+        commaands:
+          - echo 9
+
+      - name: Hello 10
+        commaands:
+          - echo 10
