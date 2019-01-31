@@ -20,41 +20,41 @@ blocks:
 
       jobs:
       - name: Hello 1
-        comands:
+        commands:
           - echo 1
 
       - name: Hello 2
-        comands:
+        commands:
           - echo 2
 
       - name: Hello 3
-        comands:
+        commands:
           - echo 3
 
       - name: Hello 4
-        comands:
+        commands:
           - echo 4
 
       - name: Hello 5
-        comands:
+        commands:
           - echo 5
 
       - name: Hello 6
-        comands:
+        commands:
           - echo 6
 
       - name: Hello 7
-        comands:
+        commands:
           - echo 7
 
       - name: Hello 8
-        comands:
+        commands:
           - echo 8
 
       - name: Hello 9
-        comands:
+        commands:
           - echo 9
 
       - name: Hello 10
-        comands:
+        commands:
           - echo 10
