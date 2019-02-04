@@ -8,6 +8,10 @@ agent:
 blocks:
   - name: "Hello"
     task:
+      env_vars:
+        - name: Test
+          value: "hello env vars"
+
       prologue:
         commands:
           - uname -a
@@ -20,35 +24,3 @@ blocks:
       - name: Hello2
         commands:
           - echo 2
-
-      - name: Hello3
-        commands:
-          - echo 3
-
-      - name: Hello4
-        commands:
-          - echo 4
-
-      - name: Hello5
-        commands:
-          - echo 5
-
-      - name: Hello6
-        commands:
-          - echo 6
-
-      - name: Hello7
-        commands:
-          - echo 7
-
-      - name: Hello8
-        commands:
-          - echo 8
-
-      - name: Hello9
-        commands:
-          - echo 9
-
-      - name: Hello10
-        commands:
-          - echo 10
