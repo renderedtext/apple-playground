@@ -15,11 +15,13 @@ blocks:
       prologue:
         commands:
           - uname -a
+          - git clone git@github.com:/renderedtext/apple-playground && cd apple-playground
+          - ls -lah
 
       jobs:
       - name: Hello1
         commands:
-          - echo 1
+          - sleep 120
 
       - name: Hello2
         commands:
