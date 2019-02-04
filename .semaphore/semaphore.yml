@@ -13,42 +13,42 @@ blocks:
           - uname -a
 
       jobs:
-      - name: Hello 1
+      - name: Hello1
         commands:
           - echo 1
 
-      - name: Hello 2
+      - name: Hello2
         commands:
           - echo 2
 
-      - name: Hello 3
+      - name: Hello3
         commands:
           - echo 3
 
-      - name: Hello 4
+      - name: Hello4
         commands:
           - echo 4
 
-      - name: Hello 5
+      - name: Hello5
         commands:
           - echo 5
 
-      - name: Hello 6
+      - name: Hello6
         commands:
           - echo 6
 
-      - name: Hello 7
+      - name: Hello7
         commands:
           - echo 7
 
-      - name: Hello 8
+      - name: Hello8
         commands:
           - echo 8
 
-      - name: Hello 9
+      - name: Hello9
         commands:
           - echo 9
 
-      - name: Hello 10
+      - name: Hello10
         commands:
           - echo 10
