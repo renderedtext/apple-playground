@@ -14,6 +14,7 @@ blocks:
 
       prologue:
         commands:
+          - pwd
           - uname -a
           - ls -lah
           - ls -lah .ssh
