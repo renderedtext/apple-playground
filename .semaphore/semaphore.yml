@@ -16,7 +16,6 @@ blocks:
         commands:
           - pwd
           - ls -lah
-          - sleep 360
           - checkout
           - ls -lah
           - pwd
