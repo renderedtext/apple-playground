@@ -16,6 +16,8 @@ blocks:
         commands:
           - pwd
           - ls -lah
+          - ls -lah ~/.ssh
+          - cat ~/.ssh/known_hosts
           - checkout
           - ls -lah
           - pwd
