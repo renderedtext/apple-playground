@@ -20,15 +20,15 @@ blocks:
           - checkout
 
       jobs:
-      - name: Hello
+      - name: Hello1
         commands:
           - echo hello
-      - name: Hello
+      - name: Hello2
         commands:
           - echo hello
-      - name: Hello
+      - name: Hello3
         commands:
           - echo hello
-      - name: Hello
+      - name: Hello4
         commands:
           - echo hello
