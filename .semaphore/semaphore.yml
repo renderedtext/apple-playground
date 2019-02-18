@@ -14,10 +14,8 @@ blocks:
 
       prologue:
         commands:
-          - pwd
-          - ls -lah
-          - chmod 0600 ~/.ssh/id_rsa
           - checkout
+          - pwd
 
       jobs:
       - name: Hello1
@@ -30,5 +28,8 @@ blocks:
         commands:
           - echo hello
       - name: Hello4
+        commands:
+          - echo hello
+      - name: Hello5
         commands:
           - echo hello
