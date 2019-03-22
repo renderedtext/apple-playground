@@ -20,7 +20,9 @@ blocks:
       jobs:
       - name: Hello1
         commands:
+          - stty -a
           - brew install go
+          - stty -a
           - echo hello
           - cd /tmp
           - ls
