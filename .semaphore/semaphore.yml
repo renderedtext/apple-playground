@@ -21,3 +21,7 @@ blocks:
       - name: Hello1
         commands:
           - git clone https://github.com/gnachman/iTerm2.git
+          - cd iTerm2
+          - rm -rf .ruby-version
+          - bash ci/before_install.sh
+          - bash ci/script.sh
