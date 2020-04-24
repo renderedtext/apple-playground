@@ -4,19 +4,18 @@ agent:
   machine:
     type: a1-standard-4
     os_image: macos-mojave-xcode11
-
 blocks:
-  - name: "Hello MacOS"
+  - name: Hello MacOS
     task:
       env_vars:
         - name: Test
-          value: "hello env vars"
-
+          value: Testing 123
       prologue:
         commands:
           - checkout
-
       jobs:
-      - name: Hello1
-        commands:
-          - xcversion installed
+        - name: Hello Catalinaa
+          commands:
+            - xcversion installed
+            - sw_vers
+            - echo $Test
