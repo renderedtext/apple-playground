@@ -13,4 +13,5 @@ blocks:
       jobs:
         - name: xcode
           commands:
+            - xcversion installed
             - xcversion selected
