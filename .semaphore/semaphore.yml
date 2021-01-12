@@ -4,12 +4,13 @@ agent:
   machine:
     type: a1-standard-4
     os_image: macos-xcode12
+global_job_config:
+  prologue:
+    commands:
+      - checkout
 blocks:
   - name: xcode
     task:
-      prologue:
-        commands:
-          - checkout
       jobs:
         - name: bundler
           commands:
