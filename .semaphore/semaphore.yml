@@ -14,3 +14,4 @@ blocks:
         - name: xcode
           commands:
             - bundle -v
+            - bundler -v
